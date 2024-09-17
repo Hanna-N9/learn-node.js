@@ -6,3 +6,5 @@
 - <b>Protocol:</b> The format of a request and the resulting response.
 
 ## What is the Back-end?
+
+The backend in a web application holds the logic to decide which assets to send to the specific user instead of sending the same files to every webpage user. This is known as dynamic content. Dynamic content refers to web content that changes based on various factors, primarily user interactions and preferences. Examples of dynamic content are pages based on user location, emails with automatic name insertion, recommendations based on browsing history, and so on.
