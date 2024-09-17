@@ -7,4 +7,10 @@
 
 ## What is the Back-end?
 
-The backend in a web application holds the logic to decide which assets to send to the specific user instead of sending the same files to every webpage user. This is known as dynamic content. Dynamic content refers to web content that changes based on various factors, primarily user interactions and preferences. Examples of dynamic content are pages based on user location, emails with automatic name insertion, recommendations based on browsing history, and so on.
+The back-end in a web application holds the logic to decide which assets to send to the specific user instead of sending the same files to every webpage user. This is known as dynamic content. Dynamic content refers to web content that changes based on various factors, primarily user interactions and preferences. Examples of dynamic content are pages based on user location, emails with automatic name insertion, recommendations based on browsing history, and so on.
+
+## Storing Data
+
+The back-ends of web applications include databases, usually more than one. Databases are information collections. There are many different databases, but they can be recognized as being divided into two types: relational and non-relational.
+
+## 5
