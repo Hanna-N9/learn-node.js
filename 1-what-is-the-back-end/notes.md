@@ -14,3 +14,7 @@ The back-end in a web application holds the logic to decide which assets to send
 The back-ends of web applications include databases, usually more than one. Databases are information collections. There are many different databases, but they can be recognized as being divided into two types: relational and non-relational.
 
 ## What is an API?
+
+- When a customer selects a specific item for sale on an e-commerce site, the price for that item is stored in a database. When a user purchases it, the database needs to be updated with the correct inventory for that item type. Much of what the back-end entails is reading, updating, or deleting information stored in a database.
+
+- A web API is typically part of a back-end system. API stands for Application Programming Interface and can refer to various interfaces. Still, a web API is a set of rules that allow devices to communicate with a web application's data. This communication usually happens through something called HTTP requests and responses. Unlike the HTTP requests a client makes when a user navigates to a website's URL, these requests tell the server exactly what a user wants to do with its data - create new data, read existing information, update existing information, or delete existing information. Then, the server sends back some data in response to your request.
