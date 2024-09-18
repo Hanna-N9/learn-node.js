@@ -13,4 +13,4 @@ The back-end in a web application holds the logic to decide which assets to send
 
 The back-ends of web applications include databases, usually more than one. Databases are information collections. There are many different databases, but they can be recognized as being divided into two types: relational and non-relational.
 
-## 5
+## What is an API?
