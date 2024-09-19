@@ -22,5 +22,3 @@ The back-ends of web applications include databases, usually more than one. Data
 ## Authorization and Authentication
 
 Authentication and authorization are the other two concepts we'll want our server-side logic to handle. Authentication validates a user's identity, such as logins with usernames and passwords. These credentials must be securely stored in the back-end in a database and checked upon each visit. Authorization controls users' access to specific resources and actions (roles given to specific users for specific access).
-
-## Different Back-end Stacks
