@@ -26,3 +26,25 @@ Authentication and authorization are the other two concepts we'll want our ser
 # JavaScript for Node.js
 
 Some important JavaScript concepts will be useful in fully utilizing Node.js in the following module.
+
+# Arrow Expressions
+
+- When using an arrow express, function declaration is not used.
+- To define an arrow expression is to simply use: () => { }
+
+## Anonymous Function (function is not named)
+
+This shown an anonymous arrow expression to log a string to the console:
+`console.log(() => console.log('I'm anonymous'));`
+
+## Named Function
+
+A named function is defined by creating an arrow expression and saving it to a variable helloWorld:
+`const helloWorld = (name) => {console.log('Welcome ${name} to Codecademy, this is an arrow expression.')};`
+
+This is to call the helloWorld() function:
+`helloWorld('Codey');` Output: Welcome Codey to Codecademy, this is an Arrow Function Expression.
+
+# Asynchronous Concepts
+
+...
