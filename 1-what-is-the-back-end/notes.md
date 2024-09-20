@@ -83,7 +83,7 @@ console.error(error) // Log the rejected error of the Promise
 
 ## Async/Await
 
-- The async...await syntax allows developers to easily implement Promise-based code.
-- The keyword async used in conjunction with a function declaration creates an async function that returns a Promise.
-- Async functions allow us to use the keyword await to block the event loop until a given Promise resolves or rejects.
-- The await keyword also allows us to assign the resolved value of a Promise to a variable.
+- "The async...await syntax allows developers to easily implement Promise-based code."
+- "The keyword async used in conjunction with a function declaration creates an async function that returns a Promise."
+- "Async functions allow us to use the keyword await to block the event loop until a given Promise resolves or rejects."
+- "The await keyword also allows us to assign the resolved value of a Promise to a variable."
