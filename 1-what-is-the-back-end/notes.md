@@ -56,3 +56,27 @@ This is to call the helloWorld() function:
 # Asynchronous Concepts
 
 When developing in Node.js and JavaScript, a mix of synchronous (blocking I/O) and asynchronous (non-blocking I/O) code is used. Promises are a common example of asynchronous code.
+
+## Promises
+
+"A Promise is a JavaScript object that represents the eventual outcome of an asynchronous operation. A Promise has three different outcomes: pending (the result is undefined and the expression is waiting for a result), fulfilled (the promise has been completed successfully and returned a value), and rejected (the promise did not successfully complete, the result is an error object)."
+
+A new Promise is defined and passed a function that takes two arguments: a fulfilled condition and a rejected condition. Then, the returned value of the Promise is logged to the console, and a .catch() method is chained to handle errors:
+
+- Two arguments are being passed: one for when the promise resolves and one for if the promise is rejected.
+
+```
+const testLuck = new Promise((resolve, reject) => {
+if (Math.random() < 0.5) {
+resolve('Lucky winner!')
+} else {
+reject(new Error('Unlucky!'))
+}
+});
+
+testLuck.then(message => {
+console.log(message) // Log the resolved value of the Promise
+}).catch(error => {
+console.error(error) // Log the rejected error of the Promise
+});
+```
