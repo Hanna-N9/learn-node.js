@@ -40,11 +40,19 @@ This shown an anonymous arrow expression to log a string to the console:
 ## Named Function
 
 A named function is defined by creating an arrow expression and saving it to a variable helloWorld:
-`const helloWorld = (name) => {console.log('Welcome ${name} to Codecademy, this is an arrow expression.')};`
+
+```
+const helloWorld = (name) => {
+  console.log(`Welcome ${name} to Codecademy, this is an arrow expression.`)
+};
+```
 
 This is to call the helloWorld() function:
-`helloWorld('Codey');` Output: Welcome Codey to Codecademy, this is an Arrow Function Expression.
+
+```
+`helloWorld('Codey');` // Output: Welcome Codey to Codecademy, this is an Arrow Function Expression.
+```
 
 # Asynchronous Concepts
 
-...
+When developing in Node.js and JavaScript, a mix of synchronous (blocking I/O) and asynchronous (non-blocking I/O) code is used. Promises are a common example of asynchronous code.
