@@ -122,8 +122,25 @@ const showAlert = () => {
   }, 5000);
 };
 
-// Calling the function to call the setInterval
+// Calling the showAlert() function to call the setInterval
 showAlert();
 ```
 
 ### setTimeout() function
+
+- "The setTimeout() function executes a code block after a specified amount of time (in milliseconds) and is only executed once."
+- "The setTimeout() function accepts the same arguments as the setInterval() function."
+- "Using the clearTimeout() function will prevent the function specified from being executed."
+
+```
+// Defined a function showTimeout() to call setTimeout.
+const showTimeout = () => {
+  // setTimeout() function is defined to display an alert box after 5 seconds.
+  setTimeout(() => {
+    alert('I only show once after 5 seconds!');
+  }, 5000);
+};
+
+// Calling the showTimeout() function
+showTimeout();
+```
