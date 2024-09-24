@@ -105,3 +105,23 @@ const asyncFunction = async () => {
 
 asyncFunction();
 ```
+
+# setInterval() and setTimeout()
+
+## setInterval()
+
+- "The setInterval() function executes a code block at a specified interval, in milliseconds. The setInterval() function requires two arguments: the name of the function (the code block that will be executed), and the number of milliseconds (how often the function will be executed)."
+- "The setInterval() function will continue to execute until the clearInterval() function is called or the node process is exited."
+
+```
+// showAlert() function displays an alert box every 5000 milliseconds
+const showAlert = () => {
+  // Calling setInterval() and passing a function that shows an alert every 5 seconds.
+  setInterval(() => {
+    alert('I show every 5 seconds!')
+  }, 5000);
+};
+
+// Calling the function to call the setInterval
+showAlert();
+```
