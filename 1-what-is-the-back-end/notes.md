@@ -87,3 +87,21 @@ console.error(error) // Log the rejected error of the Promise
 - "The keyword async used in conjunction with a function declaration creates an async function that returns a Promise."
 - "Async functions allow us to use the keyword await to block the event loop until a given Promise resolves or rejects."
 - "The await keyword also allows us to assign the resolved value of a Promise to a variable."
+
+```
+// Creat a new promise that runs the function in the setTimeout after 5 seconds
+const newPromise = new Promise((resolve, reject) => {
+  setTimeout(() => resolve("All done!"), 5000);
+});
+
+// Creating an asynchronous function saved to a variable asyncFunction
+const asyncFunction = async () => {
+  // Await the promise to resolve and save the value returned to finalResult
+  const finalResult = await newPromise;
+
+  // Logging the result of the promise to the console
+  console.log(finalResult); // Output: All done!
+}
+
+asyncFunction();
+```
