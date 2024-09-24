@@ -106,7 +106,7 @@ const asyncFunction = async () => {
 asyncFunction();
 ```
 
-## setInterval() and setTimeout()
+## setInterval() and setTimeout() functions
 
 ### setInterval() function
 
