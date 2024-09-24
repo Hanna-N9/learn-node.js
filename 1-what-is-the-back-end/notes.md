@@ -106,9 +106,9 @@ const asyncFunction = async () => {
 asyncFunction();
 ```
 
-# setInterval() and setTimeout()
+## setInterval() and setTimeout()
 
-## setInterval()
+### setInterval() function
 
 - "The setInterval() function executes a code block at a specified interval, in milliseconds. The setInterval() function requires two arguments: the name of the function (the code block that will be executed), and the number of milliseconds (how often the function will be executed)."
 - "The setInterval() function will continue to execute until the clearInterval() function is called or the node process is exited."
@@ -125,3 +125,5 @@ const showAlert = () => {
 // Calling the function to call the setInterval
 showAlert();
 ```
+
+### setTimeout() function
