@@ -144,3 +144,10 @@ const showTimeout = () => {
 // Calling the showTimeout() function
 showTimeout();
 ```
+
+# What Is JSON?
+
+- "JSON, or JavaScript Object Notation, is a popular, language-independent, standard format for storing and exchanging data."
+- "JSON has become the de facto standard that facilitates storing and sending data between all programming languages."
+- "JSON is heavily used to facilitate data transfer in web applications between" a client and a server.
+- "When companies make their data public for other applications, like Spotify sharing its music library or Google sharing its map data, the information is formatted in JSON."
