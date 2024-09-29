@@ -16,6 +16,16 @@ the print state where the program prints out its evaluation to a console. Then i
 // input line by line.
 // To type multiple lines and then have them evaluated at once is to type .editor while in the REPL
 
-//--- To do to try out the Node REPL and explore the Node global object
+// REPLs are powerful tools for calculations, learning, and development, allowing exploration of language features with immediate feedback.
+// The Node environment provides a global object containing Node-specific properties and methods, enhancing functionality beyond standard
+// JavaScript capabilities.
 
-// Type node in the terminal and press enter to enter the Node REPL
+//---- To do to try out the Node REPL and explore the Node global object
+
+//---- Type node in the terminal and press enter to enter the Node REPL
+//---- To access global is to type global which bring huge contents because of global.process object
+//---- So to check out an easier-to-read list of the properties on the global object is to type Object.keys(global)
+// The global object contains numerous valuable properties and methods that are rarely modified. However, since the global object is
+// essentially a regular JavaScript object, we have the flexibility to customize it further if needed. For instance, we could add
+//--- a new property like global.cat = 'meow!' to extend its functionality then print or return the property by typing
+// console.log(global.cat)
