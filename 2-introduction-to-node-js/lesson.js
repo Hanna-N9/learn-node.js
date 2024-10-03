@@ -29,3 +29,29 @@ JavaScript capabilities. */
 essentially a regular JavaScript object, we have the flexibility to customize it further if needed. For instance, we could 
 --- Add a new property like global.cat = 'meow!' to extend its functionality then print or return the property by typing 
 console.log(global.cat) */
+
+//------------------------------------------------------------ Running a Program with Node
+
+/* Node was designed for server-side web development and has thoughtful functionality for that end. At its most simple, however, it 
+allows us to run JavaScript programs on our own computers instead of just in the browser’s console or embedded in HTML. */
+
+//---- Explore some of the functionality and properties specific to the Node environment
+
+/* To execute the code is to navigate to to the directory that contains the <specific file>.js with codes that you wrote there and 
+type the command node <specific file with written codes>.js into the terminal. */
+
+console.log("Hello World");
+
+//---- There are a number of variables assigned the string.
+
+let noun1 = "cat";
+let adjective = "silly";
+let noun2 = "banana";
+let verb = "play";
+let noun3 = "elephant";
+
+console.log(
+  `The world's first ${noun1} was a very ${adjective} ${noun2} who loved to ${verb} while eating ${noun3} for every meal.`,
+);
+
+// // Type node lesson.js (this directory's file) to run the program to see the output
