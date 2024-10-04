@@ -56,16 +56,22 @@ console.log(
 
 //------------------------------------------------------------ Core Modules
 
+// Modularity
 /* 
 - Modularity is a software design technique where one program has distinct parts, each providing a single piece of the overall functionality. These separate modules come together to build a cohesive whole.
 - Doc on modules: As the program grows bigger, it may contain many lines of code. Instead of putting everything in a single file, modules can be used to separate codes in separate files as per their functionality. This makes the code more organized and easier to maintain.
 - A module is a file that contains code that performs a specific task. A module may contain variables, functions, classes, etc.
 
+Core modules are built-in modules that come pre-installed with Node.js. They are defined within Node.js's source code and located in the lib/ folder. More to explain down below.
+
 - Modularity is essential for creating scalable programs which incorporate libraries and frameworks and separate the program’s concerns into manageable chunks. Essentially, a module is a collection of code located in a file.
 - Instead of having an entire program located in a single file, code is organized into separate files based on the concerns they address. 
   - These files can then be included in other files by using the require() function. 
+*/
 
-- Node.js has several built-in modules to perform common tasks efficiently. These are known as the core modules. The core modules are defined within Node.js’s source code and are located in the lib/ folder. Core modules can be required by passing a string with the name of the module into the require() function:
+// Core Modules
+/* 
+- Node.js has several built-in modules to perform common tasks efficiently. These are known as the core modules. Core modules are built-in modules that come pre-installed with Node.js. The core modules are defined within Node.js’s source code and are located in the lib/ folder. Core modules can be required by passing a string with the name of the module into the require() function:
 
 // Require in the 'events' core module:
 const events = require('events');
