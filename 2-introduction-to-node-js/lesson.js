@@ -54,4 +54,4 @@ console.log(
   `The world's first ${noun1} was a very ${adjective} ${noun2} who loved to ${verb} while eating ${noun3} for every meal.`,
 );
 
-// // Type node lesson.js (this directory's file) to run the program to see the output
+//---- Type node lesson.js (this directory's file) to run the program to see the output
