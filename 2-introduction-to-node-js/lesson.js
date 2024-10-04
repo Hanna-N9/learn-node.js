@@ -55,3 +55,30 @@ console.log(
 //---- Type node lesson.js (this directory's file) to run the program to see the output
 
 //------------------------------------------------------------ Core Modules
+
+/* 
+- Modularity is a software design technique where one program has distinct parts, each providing a single piece of the overall functionality. These separate modules come together to build a cohesive whole.
+- Doc on modules: As the program grows bigger, it may contain many lines of code. Instead of putting everything in a single file, modules can be used to separate codes in separate files as per their functionality. This makes the code more organized and easier to maintain.
+- A module is a file that contains code that performs a specific task. A module may contain variables, functions, classes, etc.
+
+- Modularity is essential for creating scalable programs which incorporate libraries and frameworks and separate the program’s concerns into manageable chunks. Essentially, a module is a collection of code located in a file.
+- Instead of having an entire program located in a single file, code is organized into separate files based on the concerns they address. 
+  - These files can then be included in other files by using the require() function. 
+
+- Node.js has several built-in modules to perform common tasks efficiently. These are known as the core modules. The core modules are defined within Node.js’s source code and are located in the lib/ folder. Core modules can be required by passing a string with the name of the module into the require() function:
+
+// Require in the 'events' core module:
+const events = require('events');
+
+- The example above shows how the events module is required into a file and stored in an events variable.
+- The events module is a Node.js core module that provides key function for working with events.
+*/
+
+/* Node.js has several core modules. Some core modules are actually used inside other core modules. For instance, the util module can be used in the console module to format messages. We’ll cover these two modules in this lesson (util & console), as well as two other commonly used core modules: process and os. */
+
+//----// Listing all of the core modules built into Node.js
+
+//---- To enter the Node REPL is to type node in the terminal
+//---- Once in the REPL, type this command to see a ist of core modules: require('module').builtinModules
+
+// You will see there are many modules already built into Node.js and ready to be utilized.
