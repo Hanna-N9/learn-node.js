@@ -12,7 +12,8 @@ a read state where the program reads input from a user, the eval state where the
 the print state where the program prints out its evaluation to a console. Then it loops through these states again. 
 
 - Installing Node comes with a built-in JavaScript REPL. To access the REPL is to type the command node into the terminal and hit enter.
-A '>' character will show up in the terminal, indicating the REPL is running and prompting your input. The Node REPL will evaluate your input line by line.
+A '>' character will show up in the terminal, indicating the REPL is running and prompting your input. The Node REPL will evaluate your 
+input line by line.
 - To type multiple lines and then have them evaluated at once is to type .editor while in the REPL.
 
 REPLs are powerful tools for calculations, learning, and development, allowing exploration of language features with immediate feedback.
@@ -25,8 +26,11 @@ JavaScript capabilities. */
 //---- To access global is to type global which bring huge contents because of global.process object
 //---- So to check out an easier-to-read list of the properties on the global object is to type Object.keys(global)
 
-/* The global object contains numerous valuable properties and methods that are rarely modified. However, since the global object is
-essentially a regular JavaScript object, we have the flexibility to customize it further if needed. For instance, we could Add a new property //--- like global.cat = 'meow!' to extend its functionality then print or return the property by typing console.log(global.cat). */
+/* 
+The global object contains numerous valuable properties and methods that are rarely modified. However, since the global object is
+essentially a regular JavaScript object, we have the flexibility to customize it further if needed. For instance, we could Add a new 
+property //--- like global.cat = 'meow!' to extend its functionality then print or return the property by typing console.log(global.cat).
+ */
 
 //------------------------------------------------------------ Running a Program with Node
 
@@ -58,18 +62,23 @@ console.log(
 
 // Modularity
 /* 
-- Modularity is a software design technique where one program has distinct parts, each providing a single piece of the overall functionality. These separate modules come together to build a cohesive whole.
-- Doc on modules: As the program grows bigger, it may contain many lines of code. Instead of putting everything in a single file, modules can be used to separate codes in separate files as per their functionality. This makes the code more organized and easier to maintain.
+- Modularity is a software design technique where one program has distinct parts, each providing a single piece of the overall 
+  functionality. These separate modules come together to build a cohesive whole.
+- Doc on modules: As the program grows bigger, it may contain many lines of code. Instead of putting everything in a single file, modules 
+  can be used to separate codes in separate files as per their functionality. This makes the code more organized and easier to maintain.
 - A module is a file that contains code that performs a specific task. A module may contain variables, functions, classes, etc.
 
-- Modularity is essential for creating scalable programs which incorporate libraries and frameworks and separate the program’s concerns into manageable chunks. Essentially, a module is a collection of code located in a file.
+- Modularity is essential for creating scalable programs which incorporate libraries and frameworks and separate the program’s concerns 
+  into manageable chunks. Essentially, a module is a collection of code located in a file.
 - Instead of having an entire program located in a single file, code is organized into separate files based on the concerns they address. 
   - These files can then be included in other files by using the require() function. 
 */
 
 // Core Modules
 /* 
-- Node.js has several built-in modules to perform common tasks efficiently. These are known as the core modules. Core modules are built-in modules that come pre-installed with Node.js. The core modules are defined within Node.js’s source code and are located in the lib/ folder. Core modules can be required by passing a string with the name of the module into the require() function:
+- Node.js has several built-in modules to perform common tasks efficiently. These are known as the core modules. Core modules are built-in 
+  modules that come pre-installed with Node.js. The core modules are defined within Node.js’s source code and are located in the lib/ 
+  folder. Core modules can be required by passing a string with the name of the module into the require() function:
 
 // Require in the 'events' core module:
 const events = require('events');
@@ -78,7 +87,9 @@ const events = require('events');
 - The events module is a Node.js core module that provides key function for working with events.
 */
 
-/* Node.js has several core modules. Some core modules are actually used inside other core modules. For instance, the util module can be used in the console module to format messages. We’ll cover these two modules in this lesson (util & console), as well as two other commonly used core modules: process and os. */
+/* Node.js has several core modules. Some core modules are actually used inside other core modules. For instance, the util module can be 
+used in the console module to format messages. We’ll cover these two modules in this lesson (util & console), as well as two other commonly
+used core modules: process and os. */
 
 //----// Listing all of the core modules built into Node.js
 
