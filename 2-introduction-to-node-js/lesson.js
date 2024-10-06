@@ -97,3 +97,38 @@ used core modules: process and os. */
 //---- Once in the REPL, type this command to see a ist of core modules: require('module').builtinModules
 
 // You will see there are many modules already built into Node.js and ready to be utilized.
+
+//------------------------------------------------------------ The Console Module
+
+// One of the most commonly used Node.js core modules is the console module.
+
+/* 
+In Node.js, the terminal is used to send and receive text feedback to and from a program, often for debugging purposes. This may sound 
+familiar to how we use the console in the web browser. That’s because in Node.js, the built-in console module exports a global console 
+object that gives the terminal similar functionality. The console object provides many of the same familiar methods such as: 
+  - .log() — to print messages to the terminal.
+  - .assert() — to print a message to the terminal if the value is falsy.
+  - .table() — to print out a table in the terminal from an object or array.
+
+Since console is a global module, its methods can be accessed from anywhere, and the require() function is not necessary.
+*/
+
+//----// Explore with the console module
+
+// Here are an array of pets, named petsArray.
+const petsArray = ["dog", "cat", "bird", "monkey"];
+
+//---- Use console.log() to print petsArray to the terminal.
+console.log(petsArray);
+
+//---- Type node <this file name> in the terminal
+
+//---- Use the console.table() method to print petsArray to the terminal as a table
+console.table(petsArray);
+
+//---- Type node <this file name> in the terminal
+
+//---- Inside the console.assert() method, check if the length of petsArray is greater than 5.
+console.assert(petsArray.length > 5);
+
+//---- Type node <this file name> in the terminal
