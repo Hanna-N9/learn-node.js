@@ -132,3 +132,36 @@ console.table(petsArray);
 console.assert(petsArray.length > 5);
 
 //---- Type node <this file name> in the terminal
+
+//------------------------------------------------------------ The Process Module
+
+/* 
+- In computer science, a process is the instance of a computer program that is being executed. Open Task Manager if on a Windows machine or 
+Activity Monitor from a Mac to to see information about the various processes running on your computer currently.
+- Node has a global process object with useful methods and information about the current process. 
+*/
+
+/* 
+- The process.env property is an object which stores and controls information about the environment in which the process is currently 
+running. For example, the process.env object contains a PWD property which holds a string with the directory in which the current 
+process is located.
+ - It can be useful to have some if/else logic in a program depending on the current environment— a web application in a development phase
+   might perform different tasks than when it’s live to users. We could store this information on the process.env.
+    - One convention is to add a property to process.env with the key NODE_ENV and a value of either production or development.
+
+     if (process.env.NODE_ENV === 'development'){
+        console.log('Testing! Testing! Does everything work?');
+     }
+ */
+
+/*      
+- The process.memoryUsage() returns information on the CPU demands of the current process. It returns a property that looks similar to this:
+     
+    { rss: 26247168,
+      heapTotal: 5767168,
+      heapUsed: 3573032,
+      external: 8772 
+    } 
+      
+... More details to come
+*/
