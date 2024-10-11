@@ -163,5 +163,4 @@ process is located.
       external: 8772 
     } 
       
-... More details to come
 */
