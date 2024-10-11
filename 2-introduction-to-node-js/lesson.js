@@ -162,5 +162,27 @@ process is located.
       heapUsed: 3573032,
       external: 8772 
     } 
-      
+
+- Heap can mean different things in different contexts: a heap can refer to a specific data structure or to a block of computer memory.
+  The process.memoryUsage().heapUsed method will return a number representing how many bytes of memory the current process is using.
 */
+
+/*      
+- The process.argv property holds an array of command line values provided when the current process was initiated.
+  - The first element in the array is the absolute path to Node, which ran the process.
+  - The second element in the array is the path to the file that’s running. 
+  - The following elements will be any command line arguments provided when the process was initiated.
+    - Command line arguments are separated from one another with spaces.
+  
+  node myProgram.js testing several features
+
+  console.log(process.argv[3]); // Prints 'several'
+
+*/
+
+/* A few of the properties of the process object are covered so there are more others to check out to learn and explore its other methods
+and properties. */
+
+//----// Practice using the process object!
+
+// ... To add codes, in process...
