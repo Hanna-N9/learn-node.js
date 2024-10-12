@@ -185,3 +185,44 @@ and properties. */
 
 //----// Practice using the process object!
 
+/* We want the program to store the starting amount of memory used (heapUsed), perform an operation, and then compare the final amount of
+memory used to the original amount. */
+
+/* initialMemory variable could be assigned the value of the heapUsed property on the object returned from invoking the 
+process.memoryUsage() method using dot notation*/
+
+//---- To access the value of heapUsed is to type this command in Node REPL: process.memoryUsage().heapUsed
+
+let initialMemory = process.memoryUsage().heapUsed;
+
+// We want the user of the program to be able to fill in their own word when they run the program.
+
+/* When a user initiates the program with an additional command line argument, vaiable word will be assigned that value. For example, running 
+the program with the command: node lesson.js Codecademy would result in word being assigned the value 'Codecademy'. */
+
+//---- When initiating the program with the command, node lesson.js Codecademy, the third element is string 'Codecademy'. Here is the
+// variable word that is assign to this third element in the array
+
+let word = process.argv[2];
+
+// Codes from the file (nothing added):
+
+console.log(`Your word is ${word}`);
+
+// Create a new array
+let wordArray = [];
+
+// Loop 1000 times, pushing into the array each time
+for (let i = 0; i < 1000; i++) {
+  wordArray.push(`${word} count: ${i}`);
+}
+
+console.log(
+  `Starting memory usage: ${initialMemory}. \nCurrent memory usage: ${
+    process.memoryUsage().heapUsed
+  }. \nAfter using the loop to add elements to the array, the process is using ${
+    process.memoryUsage().heapUsed - initialMemory
+  } more bytes of memory.`,
+);
+
+//---- Type this command in the terminal, node <this file's name>.js by any word you like
