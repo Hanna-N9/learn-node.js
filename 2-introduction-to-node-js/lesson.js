@@ -226,3 +226,21 @@ console.log(
 );
 
 //---- Type this command in the terminal, node <this file's name>.js by any word you like
+
+//------------------------------------------------------------ The OS Module
+
+/* 
+- When developing or debugging an app, it can be helpful to have information about the computer, operating system, and network on which the
+program is running. Node.js as a JavaScript runtime allows code to be execut eoutside of the browser hence, allowing the programmers to 
+get access to much of this information through the os core module.
+- Unlike process and console, the os module is not global and needs to be included into the file in order to gain access to its methods. 
+- To can include the os module into your file by typing: 
+
+   const os = require('os'); 
+*/
+
+/* 
+With the os module saved to the os variable, you can call methods like:
+
+  ... More details to add ...
+*/
