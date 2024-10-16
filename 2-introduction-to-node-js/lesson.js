@@ -242,5 +242,5 @@ get access to much of this information through the os core module.
 /* 
 With the os module saved to the os variable, you can call methods like:
 
-  ... More details to add ...
+ 
 */
