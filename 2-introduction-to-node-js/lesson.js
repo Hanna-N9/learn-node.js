@@ -242,5 +242,26 @@ get access to much of this information through the os core module.
 /* 
 With the os module saved to the os variable, you can call methods like:
 
- 
+os.type() — to return the computer’s operating system.
+os.arch() — to return the operating system CPU architecture.
+os.networkInterfaces() — to return information about the network interfaces of the computer, such as IP and MAC address.
+os.homedir() — to return the current user’s home directory.
+os.hostname() — to return the hostname of the operating system.
+os.uptime() — to return the system uptime, in seconds.
 */
+
+//----// Explore the os module (down below return the information learning environment hosted by Codecademy)
+
+//---- Using the const keyword, declare a variable, os, that stores the os module.
+const os = require("os");
+
+//---- Use const to create an empty object named server
+//---- Inside server, add the keys: type, architecture, and uptime Store their respective values using methods from the os module.
+const server = {
+  type: os.type(),
+  architecture: os.arch(),
+  uptime: os.uptime(),
+};
+
+//----  console.log() the server object and run the program by typing node <this file's name>.js in the terminal.
+console.log(server);
